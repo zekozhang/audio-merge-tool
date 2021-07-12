@@ -1,0 +1,204 @@
+.ivu-input-wrapper{// reset input
+    height: 34px;
+	.ivu-input{
+		height: 34px;
+		border-radius: 2px;
+	}
+}
+.ivu-select-single{// reset select
+    .ivu-select-selection {
+        height: 34px;
+        .ivu-select-selected-value {
+            height: 34px;
+        }
+        .ivu-select-placeholder {
+            height: 34px;
+        }
+    }
+}
+.div:not(.ivu-page-options-sizer) {
+    .ivu-select {
+        .ivu-select-placeholder {
+            font-size: 14px!important;
+        }
+        .ivu-select-dropdown-list {
+            .ivu-select-item {
+                font-size: 14px!important;
+            }
+        }
+    }
+}
+
+//modal reset
+.ivu-modal {
+    .ivu-modal-header {
+        padding-left: 30px;
+        .ivu-modal-header-inner {
+            font-size: 18px;
+            font-weight: bold;
+            color: #293547;
+        }
+    }
+    .ivu-modal-body {
+        padding: 0px;
+    }
+    .ivu-modal-footer {
+        border-top: 0px;
+    }
+}
+
+.ivu-modal-content{
+  border-radius: 2px;
+}
+.vertical-center-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .ivu-modal{
+        top: 0;
+    }
+}
+//各种提示弹窗
+.ivu-modal-confirm {
+    padding: 16px 20px!important;
+    .ivu-modal-confirm-head-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #293547;
+    }
+    .ivu-modal-confirm-body {
+        font-size: 14px;
+    }
+}
+
+
+//card
+.ivu-card-head { padding: 13px 16px; border-color: #ddd;}
+.ivu-card-head p {text-align: center;}
+
+//button
+.ivu-btn{
+  border-radius: 2px;
+}
+.ivu-btn:focus,.ivu-btn-primary:focus{ box-shadow: 0 0 0px!important;}
+
+.ivu-menu .ivu-menu-item>i {//左边导航展开时候图标的大小
+    font-size: 16px;
+}
+//reset table 包括总是滚动的问题
+.ivu-table {//flex布局的滚动
+    width: 100%!important;
+    table {
+        width: 100%!important;
+        // table-layout: auto;
+    }
+}
+.ivu-table-wrapper {//table reset
+    // border-color: #fff;
+    border: none!important;
+    .ivu-table {
+        border: none;
+        &:after {
+            width: 0;
+        }
+        border: none;
+        thead {
+          th {
+            background: #fff;
+            height: 45px;
+            line-height: 1;
+            color: #293547;
+            font-size:14px;
+            font-weight: bold;
+            background: #f5f5f5;
+            // border-color: #e4e4e4;
+          }
+        }
+        tbody {
+            tr{
+                height: 45px;
+                font-size: 14px;
+                color:#293547;
+                td {
+                    border-bottom: 0px;
+                    position: relative;
+                }
+                &.ivu-table-row-hover {
+                    td:first-child {
+                        &::before {
+                            content: '';
+                            width: 4px;
+                            height: 45px;
+                            position: absolute;
+                            top: 1px;
+                            left: 0px;
+                            background: #4a8df1;
+                        }
+                    }
+                }
+            }
+            tr:nth-child(odd) {
+                td{
+                    background: #fff;
+                }
+            }
+            tr:nth-child(even) {
+                td{
+                    background: #f5f5f5;
+                }
+            }
+        }
+    }
+}
+//form 表单
+.ivu-form {
+    .ivu-form-item-label{
+        font-size: 14px;
+    }
+}
+.ivu-btn span {//字体大小都是14 button
+    font-size: 14px;
+}
+.ivu-page{
+	text-align: right;
+	.ivu-page-total,.ivu-page-item-jump-next,.ivu-page-item-jump-prev,.ivu-page-next,.ivu-page-prev,.ivu-page-item{
+		height: 34px;
+		line-height: 34px;
+		border: none;
+		border-radius: 2px;
+	}
+	.ivu-page-options{
+		.ivu-select-selected-value{
+			height: 34px;
+			line-height: 34px;
+		}
+	}
+	.ivu-page-options-elevator{
+		height: 34px;
+		input{
+			height: 34px;
+			line-height: 34px;
+			text-align: center;
+			border-radius: 2px;
+		}
+	}
+}
+.ivu-select,.ivu-select-single{
+	.ivu-select-selection{
+		border-radius: 2px!important;
+		height: 34px!important;
+		.ivu-select-selected-value,.ivu-select-placeholder{
+			height: 32px!important;
+			line-height: 32px!important;
+			border-radius: 2px!important;
+		}
+	}
+}
+.ivu-table-wrapper>.ivu-spin-fix {
+    border-top: 1px solid #dddee1;
+    border-left: 1px solid #dddee1;
+}
+
+.ivu-menu-item>i {//修改左边
+    margin-right: 15px;
+}

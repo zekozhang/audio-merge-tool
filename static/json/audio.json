@@ -1,0 +1,56 @@
+{
+	"audioList": [
+		{
+			"text": "US-单元音-_ɑ：___ɔ：_",
+			"value": "../../static/audio/US-monophthong-1.mp3"
+		},
+		{
+			"text": "US-单元音-_æ___e_",
+			"value": "../../static/audio/US-monophthong-2.mp3"
+		},
+		{
+			"text": "US-单元音-_ə___ʌ_",
+			"value": "../../static/audio/US-monophthong-3.mp3"
+		},
+		{
+			"text": "US-单元音-_ər___ɜ",
+			"value": "../../static/audio/US-monophthong-4.mp3"
+		},
+		{
+			"text": "US-单元音-_i：___ı_",
+			"value": "../../static/audio/US-monophthong-5.mp3"
+		},
+		{
+			"text": "US-单元音-_u：___ʊ_",
+			"value": "../../static/audio/US-monophthong-6.mp3"
+		},
+		{
+			"text": "US-辅-软腭_k___g_",
+			"value": "../../static/audio/US-consonant-velar-1.mp3"
+		},
+		{
+			"text": "US-辅-软腭_ŋ___h_",
+			"value": "../../static/audio/US-consonant-velar-2.mp3"
+		},
+		{
+			"text": "US-辅-软腭_r_",
+			"value": "../../static/audio/US-consonant-velar-3.mp3"
+		},
+		{
+			"text": "US-辅-舌音_n___l_",
+			"value": "../../static/audio/US-consonant-lingual-1.mp3"
+		},
+		{
+			"text": "US-辅-舌音_t___d_",
+			"value": "../../static/audio/US-consonant-lingual-2.mp3"
+		},
+		{
+			"text": "US-辅-舌音_θ___ð_",
+			"value": "../../static/audio/US-consonant-lingual-3.mp3"
+		},
+		{
+			"text": "US-辅-舌音_s___z_",
+			"value": "../../static/audio/US-consonant-lingual-4.mp3"
+		}
+	]
+}
